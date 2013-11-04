@@ -9,6 +9,10 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": [
-    "index.js"
+    "index.js",
+    "libs/CSSPlugin.js",
+    "libs/EasePack.js",
+    "libs/ScrollToPlugin.js",
+    "libs/TweenLite.js"
   ]
 }
