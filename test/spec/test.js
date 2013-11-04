@@ -17,7 +17,19 @@
       setTimeout(function() {
         expect(thing.foo).to.equal(10);
         done();
-      }, 520)
+      }, 520);
     });
+    it('should Tween things back', function(done) {
+      var thang = {
+        bar : 10
+      };
+      TweenLite.from(thang, 0.5, {bar : 100});
+      expect(thang.bar).to.equal(100)
+      setTimeout(function() {
+        expect(thang.bar).to.equal(10);
+        done();
+      }, 520)
+    })
+
   });
 })();
