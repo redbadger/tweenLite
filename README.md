@@ -1,3 +1,3 @@
 # TweenLite to use with component
 
-Just do require('tweenLite')() to attach TweenLite and its requirements to the window object.
+do `require('tweenLite')` to obtain an object that contains `TweenLite` and `Expo`
