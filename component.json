@@ -10,9 +10,9 @@
   "main": "index.js",
   "scripts": [
     "index.js",
-    "libs/CSSPlugin.js",
-    "libs/EasePack.js",
-    "libs/ScrollToPlugin.js",
-    "libs/TweenLite.js"
+    "src/CSSPlugin.js",
+    "src/EasePack.js",
+    "src/ScrollToPlugin.js",
+    "src/TweenLite.js"
   ]
 }

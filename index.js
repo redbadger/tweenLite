@@ -1,8 +1,7 @@
 // just require these to initialise tweenlite in your window object
-require('./libs/CSSplugin');
-require('./libs/EasePack');
-require('./libs/ScrollToPlugin');
-require('./libs/TweenLite');
-
+require('./src/CSSPlugin.js');
+require('./src/EasePack.js');
+require('./src/ScrollToPlugin.js');
+require('./src/TweenLite.js');
 
 module.exports = window.TweenLite;

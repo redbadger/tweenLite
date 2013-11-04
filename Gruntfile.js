@@ -18,20 +18,12 @@ module.exports = function(grunt) {
 
     watch: {
       scripts: {
-        files: ['/**/*.js'],
+        files: ['index.js', 'src/**/*.js'],
         tasks: ['exec:build'],
         options: {
           spawn: false,
           livereload: true
         },
-      },
-      examples: {
-        files: ['examples/*'],
-        tasks: [],
-        options: {
-          spawn: false,
-          livereload: true
-        }
       },
       test: {
         files: ['test/**/*'],
