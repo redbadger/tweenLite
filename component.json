@@ -1,0 +1,19 @@
+{
+  "name": "tweenLite",
+  "repo": "redbadger/tweenLite",
+  "description": "A componentified TweenLite.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "libs/CSSPlugin.js",
+    "libs/EasePack.js",
+    "libs/ScrollToPlugin.js",
+    "libs/TweenLite.js"
+  ]
+}
