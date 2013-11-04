@@ -1,7 +1,8 @@
 /*global describe, it */
 'use strict';
 (function () {
-  var TweenLite = require('tweenLite');
+  var TweenLite = require('tweenLite').TweenLite;
+  var Expo = require('tweenLite').Expo;
   describe('TweenLite', function () {
     it('Setup properly', function () {
       expect(TweenLite).not.to.be.undefined;
@@ -30,6 +31,10 @@
         done();
       }, 520)
     })
-
+  });
+  describe('Expo', function() {
+    it('Should have an easeOut function', function() {
+      expect(Expo).to.have.property('easeOut');
+    })
   });
 })();

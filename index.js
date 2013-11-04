@@ -4,4 +4,7 @@ require('./src/EasePack.js');
 require('./src/ScrollToPlugin.js');
 require('./src/TweenLite.js');
 
-module.exports = window.TweenLite;
+module.exports = {
+  TweenLite : window.TweenLite,
+  Expo : window.Expo
+}
