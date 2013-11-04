@@ -9,5 +9,15 @@
       expect(TweenLite).to.have.property('from');
       expect(TweenLite).to.be.a.function;
     });
+    it('should Tween things', function(done) {
+      var thing = {
+        foo: 0
+      };
+      TweenLite.to(thing, 0.5, {foo: 10});
+      setTimeout(function() {
+        expect(thing.foo).to.equal(10);
+        done();
+      }, 520)
+    });
   });
 })();
